@@ -18,6 +18,7 @@ class book_records{
 int main() {
     book_records b[10];
     for (int i=0;i<10;i++){
+        cout<<"Details of Book "<<i+1<<endl;
         b[i].accept();
     }
     for (int j=0;j<10;j++){
