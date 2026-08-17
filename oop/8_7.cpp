@@ -15,6 +15,7 @@ class customer_records{
 int main() {
     customer_records c[5];
     for (int i=0;i<5;i++){
+        cout<<"Details of Customer "<<i+1<<endl;
         c[i].accept();
     }
     for (int j=0;j<5;j++){
