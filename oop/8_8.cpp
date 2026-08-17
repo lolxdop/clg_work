@@ -18,6 +18,7 @@ class Employee{
 int main() {
     Employee e[5];
     for (int i=0;i<5;i++){
+        cout<<"Details of Employee "<<i+1<<endl;
         e[i].accept();
     }
     for (int j=0;j<5;j++){
